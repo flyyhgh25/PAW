@@ -1,0 +1,71 @@
+@import url('https://rsms.me/inter/inter.css');
+body{
+    font-family: 'Inter';
+}
+:root{
+    --purple-color:#5B20C7;
+    --dark-color: black;
+    --white-color:white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+main{
+    padding: 10px 40px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+ul li{
+    padding: 0 10px;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: var(--dark-color)
+}
+li> a:hover{
+    border-bottom:2px solid var(--purple-color);
+}
+.btn-mulai:hover{
+    color:var(--white-color);
+}
+section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 30px;
+}
+.gambar img{
+    width: 100%;
+}
+h1{
+    font-size: 72px;
+}
+.active{
+    color:var(--purple-color);
+    font-weight: 900;
+}
+h1 span{
+    color:var(--purple-color);
+    margin:20px 0
+}
+.deskripsi p{
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+.mulai,.btn-mulai{
+    padding: 10px 20px;
+    background-color:var(--purple-color);
+    color:var(--white-color);
+    border-radius: 5px;
+}
+
+@media(max-width:768px) {
+    section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}

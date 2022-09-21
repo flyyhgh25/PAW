@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="todo">
+        <h1>Todo List</h1>
+        <p>Your todo for today(21 September 2022)</p>
+        <form action="">
+            <div class="form1" id="form1">
+                <input type="checkbox" placeholder='a'id="create" class="chck" value="create"onclick="Check(this)" > 
+                <label for="create" >Create Layout</label> <br>
+            </div>
+           <div class="form2" id="form1">
+            <input type="checkbox" placeholder='a'name="create1"class="chck" id="create1" value="create" onClick="Check(this)" > 
+            <label for="create1" >Manipulate DOM Using Javascript</label> <br>
+           </div>
+        </form>
+    </div>
+</body>
+<script>  
+    function Check(e)
+    {
+        if(e.checked===true){
+            e.parentElement.style.textDecoration='line-through' 
+        }
+        else{
+            e.parentElement.style.textDecoration ='none'
+        }
+    }
+</script>
+</html>

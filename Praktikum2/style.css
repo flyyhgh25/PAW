@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lobster&family=Manrope:wght@200;800&family=Poppins:wght@500&display=swap');
+body{
+    font-family: 'Manrope';
+}
+.todo{
+    width: 30%;
+    margin: 10% auto;
+}
+form input{
+    padding: 10px 0;
+    margin: 10px 0;
+}
+input:checked{
+    text-decoration: line-through;
+}

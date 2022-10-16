@@ -1,0 +1,30 @@
+h1{
+    color: blue;
+}
+a{
+    text-decoration: none;
+    color: rgba(15, 107, 244, 1);
+}
+form{
+    width: 40%;
+    padding: 15x;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px
+}
+form input{
+    padding: 10px;
+    border: none;
+    width: 90%;
+    outline:none;
+}
+form i {
+    color: black
+}
+main{
+    width: 50%;
+}
+.flex{
+    display: flex;
+    gap:20px
+}

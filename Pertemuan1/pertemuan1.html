@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <title>Pertemuan 1</title>
 </head>
 <body>
@@ -17,23 +18,78 @@
                 <li><a href="#">Persiapan</a></li>
                 <li><a href="#" class="btn-mulai">Mulai</a></li>
             </ul>
+            <i class="fa-solid fa-bars"></i>
         </nav>
     </header>
     <hr>
     <main>
-        <section>
+        <section class="intro">
+            
+            <div class="gambar">
+                <img srcset="./images/img-hero.png 1x, ./images/img-hero@2x.png 2x" alt="gambar">
+            </div>
             <div class="deskripsi">
                 <h1>Membuat Web <br> itu <span>Mudah!</span></h1>
                 <p>Membuat web itu tidak sesulit yang dibayangkan. Indonesia,<br> Amerika, Eropa,
                     mau dimanapun teknik dan alat membuat web <br>itu sama.
                     Dan itu modal dasar dan alasan utama bahwa setiap <br>orang bisa membuat web dengan kualitas dunia.
                 </p>
-                <a href="#" class="mulai">Mulai Belajar</a>
-            </div>
-            <div class="gambar">
-                <img srcset="./images/img-hero.png 1x, ./images/img-hero@2x.png 2x" alt="gambar">
+                <a href="#" class="mulai">Lihat Kelas</a>
             </div>
         </section>
+        <section class="content-section">
+            <div class="sub-judul">
+                <h2>Pilih Kelas</h2>
+                <p>
+                    Belajar dimana saja, kapan saja. Atur kecepatan belajar mu sendiri dan raih sertifikat kelulusanmu.
+                </p>
+            </div>
+            <div class="content">
+                <div class="card">
+                    <!-- <div class="card-image"> -->
+                        <img srcset="./images/img-html.png 1x, ./images/img-html@2x.png 2x" alt="coding" >
+                    <!-- </div> -->
+                    <div class="deskripsi">
+                        <h3>STML Dasar</h3>
+                        Belajar dasar-dasar HTML dan berbagai macam tag yang dapat digunakan. 
+                        Selesaikan kelas ini dan tadaaa!. Kau bisa membuat web-mu sendiri
+                    </div>
+                    <div class="card-footer">
+                        <button>Mulai Belajar</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <!-- <div class="card-image"> -->
+                        <img srcset="./images/img-css.png 1x, ./images/img-css@2x@2x.png 2x" alt="coding" >
+                    <!-- </div> -->
+                    <div class="deskripsi">
+                       <h3>Styling dengan CSS</h3> 
+                       HTML saja tidak cukup. Web-mu perlu tampilan unik agar dapat menarik pengunjung atau bahkan menarik talent hunter. Dengan CSS semua itu menjadi mudah.
+                    </div>
+                    <div class="card-footer">
+                        <button>Mulai Belajar</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <!-- <div class="card-image"> -->
+                        <img srcset="./images/img-js.png 1x, ./images/img-js@2x@2x.png 2x" alt="coding" >
+                    <!-- </div> -->
+                    <div class="deskripsi">
+                        <h3>Javascript 101</h3>
+                        Dengan javascript kamu dapat melakukan berbagai hal yang tidak bisa dilakukan dengan HTML maupun CSS. Mulai dari manipulasi halaman hingga animasi suatu elemen. 
+                    </div>
+                    <div class="card-footer">
+                        <button>Mulai Belajar</button>
+                    </div>
+                </div>
+            </div>
+        
+
+            <div class="pilih">
+                <a href="">Lihat semua kelas -></a> 
+            </div>
+    </section>
+      
     </main>
     <script src="script.js"></script>
 </body>

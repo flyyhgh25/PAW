@@ -33,7 +33,7 @@ li> a:hover{
 .btn-mulai:hover{
     color:var(--white-color);
 }
-section{
+.intro{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     grid-column-gap: 30px;
@@ -62,10 +62,79 @@ h1 span{
     color:var(--white-color);
     border-radius: 5px;
 }
-
+/* content */
+.content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 40px;
+    height: 50vh;
+}
+.card{
+    height: 60vh;
+}
+.card img{
+    height: 30vh;
+    width: 100%;
+}
+.card>.deskripsi{
+    height: 25vh;
+    padding: 10px 0;
+}
+.card>.card-footer{
+    height: 5vh;
+    text-align: center;
+}
+.card-footer button{
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    background-color: #5B20C7;
+    padding: 10px;
+}
+section{
+    margin-bottom: 50px;
+}
+.sub-judul{
+    text-align: center;
+    margin: 50px 0;
+}
+.content-section{
+    background-color:  rgba(250, 249, 249, 1);
+    height: fit-content;
+}
+.pilih{
+    margin-top: 100px;
+    text-align: center;
+}
+.pilih a{
+    text-decoration: none;
+    color: #5B20C7;
+}
+nav>.fa-bars{
+    display: none;
+}
 @media(max-width:768px) {
-    section{
+    .intro{
         display: grid;
         grid-template-columns: 1fr;
     }
+    .content{
+        grid-template-columns: 1fr;
+        grid-row-gap: 80px;
+    }
+    .pilih{
+        margin-top: 950px;
+    }
+    nav>.fa-bars{
+        display: block;
+        font-size: 30px;
+        color: #5B20C7;
+    }
+    nav ul{
+        display: none;
+    }
+    .deskripsi a{
+        width: 500px;
+    }
+
 }
